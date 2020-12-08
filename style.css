@@ -7,6 +7,10 @@
     max-width:100%;
 }
 
+img {
+    display:none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: slateblue;
@@ -48,4 +52,7 @@ header {
 .center {
     display:flex;
     justify-content:center;
+    align-content:center;
+    margin:auto;
+    padding:.5rem;
 }
