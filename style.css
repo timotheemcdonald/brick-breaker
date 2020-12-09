@@ -20,7 +20,7 @@ body {
 h1 {
     font-size:3rem;
     font-weight: 900;
-    background: -webkit-linear-gradient(gold, yellow);
+    background: -webkit-linear-gradient(gold, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
 }
@@ -35,6 +35,9 @@ header {
     font-size:2rem;
     padding:2rem;
     font-weight:700;
+    background: -webkit-linear-gradient(gold, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
 
 .box {
@@ -43,11 +46,6 @@ header {
     border-image-slice: 1;
 }
 
-#gameScreen {
-    border: 5px solid;
-    border-image-source: radial-gradient(yellow,white,gold);
-    border-image-slice: 1;
-}
 
 .center {
     display:flex;
